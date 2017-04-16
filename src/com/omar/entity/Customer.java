@@ -17,7 +17,7 @@ public class Customer {
 	private int id;
 	
 	@Column(name = "first_name")
-	private String fistName;
+	private String firstName;
 	
 	@Column(name = "last_name")
 	private String lastName;
@@ -36,12 +36,12 @@ public class Customer {
 		this.id = id;
 	}
 
-	public String getFistName() {
-		return fistName;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setFistName(String fistName) {
-		this.fistName = fistName;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
 	public String getLastName() {
@@ -62,7 +62,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", fistName=" + fistName + ", lastName=" + lastName + ", email=" + email + "]";
+		return "Customer [id=" + id + ", fistName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
 	
 }
